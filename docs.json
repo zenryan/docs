@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Cynopsis Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#CB3336",
+    "light": "#CB3336",
+    "dark": "#CB3336"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -35,7 +35,7 @@
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "API Example",
         "groups": [
           {
             "group": "API Documentation",
@@ -51,6 +51,23 @@
               "api-reference/endpoint/delete",
               "api-reference/endpoint/webhook"
             ]
+          }
+        ]
+      },
+      {
+        "tab": "API Custom",
+        "groups": [
+          {
+            "group": "API Documentation",
+            "pages": [
+              "api-reference2/introduction"
+            ]
+          },
+          {
+            "group": "Endpoint",
+            "openapi": {
+              "source": "api-reference2/o4.json"
+            }
           }
         ]
       }
@@ -76,14 +93,14 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/cynopsis_logo.avif",
+    "dark": "/logo/cynopsis_logo.avif"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:clientsuccess@cynopsis.co"
       }
     ],
     "primary": {
